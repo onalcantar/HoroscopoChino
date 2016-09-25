@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.noealcantar.horoscopochino.MainActivity" >
+
+    <TextView
+        android:id="@+id/tvTituloSigno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnBuey"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/titulo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/azul"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/btnBuey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTituloSigno"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_toLeftOf="@+id/btnCaballo"
+        android:src="@drawable/buey" />
+
+    <ImageButton
+        android:id="@+id/btnCaballo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnBuey"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/caballo" />
+
+    <ImageButton
+        android:id="@+id/btnDragon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnBuey"
+        android:layout_below="@+id/btnBuey"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/dragon" />
+
+    <ImageButton
+        android:id="@+id/btnGallo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCaballo"
+        android:layout_alignTop="@+id/btnDragon"
+        android:src="@drawable/gallo" />
+
+    <ImageButton
+        android:id="@+id/btnGato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCabra"
+        android:layout_alignTop="@+id/btnGallo"
+        android:src="@drawable/gato" />
+
+    <ImageButton
+        android:id="@+id/btnJabali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnDragon"
+        android:layout_below="@+id/btnDragon"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/jabali" />
+
+    <ImageButton
+        android:id="@+id/btnMono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnGallo"
+        android:layout_alignTop="@+id/btnJabali"
+        android:src="@drawable/mono" />
+
+    <ImageButton
+        android:id="@+id/btnPerro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnGato"
+        android:layout_alignTop="@+id/btnMono"
+        android:src="@drawable/perro" />
+
+    <ImageButton
+        android:id="@+id/btnRata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnJabali"
+        android:layout_below="@+id/btnJabali"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/rata" />
+
+    <ImageButton
+        android:id="@+id/btnSerpiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnMono"
+        android:layout_alignTop="@+id/btnRata"
+        android:src="@drawable/serpiente" />
+
+    <ImageButton
+        android:id="@+id/btnTigre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnPerro"
+        android:layout_alignTop="@+id/btnSerpiente"
+        android:src="@drawable/tigre" />
+
+    <ImageButton
+        android:id="@+id/btnCabra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cabra"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_alignTop="@+id/btnCaballo"
+        android:layout_toRightOf="@+id/btnCaballo"
+        android:layout_toEndOf="@+id/btnCaballo" />
+
+</RelativeLayout>
+
+</ScrollView>
