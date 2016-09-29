@@ -1,0 +1,3 @@
+<p>Los que han nacido en <b>1910, 1922, 1934, 1946, 1958, 1970, 1982, 1994</b>.</p>
+<p>Es un año importante para que reflexiones, no te lamentes por errores pasados, aprende de ellos y corrígelos.</p>
+<p><i>Es un año importante para que reflexiones, no te lamentes por errores pasados, aprende de ellos y corrígelos.</i></p>
